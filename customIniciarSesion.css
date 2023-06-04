@@ -1,0 +1,65 @@
+/*Estilos global*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    color: #161616;
+}
+
+
+/*-----------------------ESTILOS PARA LA PAGINA DE INICIAR SESION-----------------------*/
+/*Estilos Body*/
+body {
+    width: 500px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 20px solid #00FAEF;
+    border-radius: 25px;
+    background-image: url(img/background-inicioSesion.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Estilos Titulos*/
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 25px;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px auto 20px;
+}
+
+/*Elementos Usuario, Contraseña*/
+label {
+    font-size: 0.9em;
+}
+
+input{
+    width: 95%;
+    padding: 5px;
+    border: 3px solid #777777;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/*Elemento Boton*/
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #0FEBFD;
+    border: none;
+    border-radius: 25%;
+}
+
+button:hover {
+    background-color: #830BE3;
+}

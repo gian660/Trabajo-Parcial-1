@@ -1,0 +1,119 @@
+/*Estilos global*/
+*{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 1.05em;
+    color: #1c1c1c;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(img/background-catalogo.jpg);
+    background-attachment: fixed;
+}
+
+/*Cabecera*/
+header{
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background:#041831;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Estilo titulo*/
+header > h1{
+    font-size: 4em;
+    font-family: 'Alkatra', cursive;
+    margin: 0px;
+    text-align: center;
+    color: #d6d6d6;
+    font-weight: 800;
+}
+
+.cerrar{
+    position: absolute;
+    right: 5px;
+    font-size: 0.4em;
+    color: #ff0000;
+    font-weight: 300;
+}
+
+header > h2{
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px;
+    color: #979797;
+}
+
+
+/*Pagina catalogo*/
+main.pageCatalogo{
+    font-size: 1em;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e4c98e;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*Articulos*/
+article{
+    width: 23%;
+    min-width: 280px;
+    display: inline-block;
+    border: #154686 5px solid;
+    margin: 20px 8px 0px;
+    border-radius: 5%;
+}
+
+article:hover{
+    border: red 4px solid;
+}
+
+.imgProduct {
+    width: 100%;
+    border-radius: 5%;
+}
+
+article > h3{
+    margin: 6px;
+    font-weight: 500;
+}
+
+article > p {
+    margin: 10px 0px;
+}
+
+article > button{
+    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 6px 15px;
+}
+
+.precioOriginal{
+    text-decoration: line-through;
+}
+
+.precioDescuento{
+    color: #e0e0e0;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #be0000;
+    border-radius: 5px;
+}
+
+.precioFinal{
+    color: #bf0f0f;
+    font-weight: 700;
+}
+
+/*Elemento Boton*/
+button:hover {
+    background-color: #ff0000;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+
+    <!--Enlazar el estilo personalizado-->
+    <link rel="stylesheet" href="customIniciarSesion.css">
+</head>
+
+<body>
+    <!--Contenido de la ventana-->
+    <main class="pageLogin">
+
+        <!--Formulario para el inicio de sesion-->
+        <form id="formInicioSesion" action="catalogoProductos.html" method="post">
+
+            <!--Titulo del inicio de sesion-->
+            <h1>Iniciar Sesión</h1>
+
+            <!--Subtitulo del inicio de sesion-->
+            <h2>Catalogo de Ventas</h2>
+
+            <!--Entrada "Usuario"-->
+            <div>
+                <label for="txtUser">Usuario:</label>
+                <input class="formElemnt" type="text" name="user" id="txtUser" required>
+            </div>
+
+            <!--Entrada "Contraseña"-->
+            <div>
+                <label for="txtPassword">Contraseña:</label>
+                <input class="formElemnt" type="password" name="password" id="txtPassword" maxlength="80" required>
+            </div>
+
+            <!--Entrada "Submit"-->
+            <button type="submit">Continuar -></button>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
